@@ -8,3 +8,4 @@ everything
 
 #FAQ:
 The actual name of this site is "The Game of Life", but that is a very generic title and does not lend much excitement to the concept at play here. A book series that I enjoy is titled "Legend of the Seeker", within which there is a game played in the Old World called "Ja'La dh Jin", and is said to translate to "The Game Of Life". It's called "Ja'La" for short. While the rules and stakes within Ja'La dh Jin are quite distinct, I find the name exotic and obviously apt.
+
