@@ -86,7 +86,6 @@ Thumbs.db
 
 # next.js
 /.next/
-/out/
 
 # production
 /build
