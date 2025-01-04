@@ -5,6 +5,8 @@ export const metadata = {
   description: "A life skills tracker",
 };
 
+// this file is where the site's header and footer should go
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
