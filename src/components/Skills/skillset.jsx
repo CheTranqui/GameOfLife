@@ -1,28 +1,26 @@
 "use client"
 
 import React, {useState} from "react";
-import { default as skillsetDefinitions } from "../../app/data/skillDefinitions.json";
+import { default as skillsetDefinitions } from "../../app/data/skillsetDefinitions.json";
 
 const Skillset = (props) => {
     const [skillset, setSkillset] = useState(skillsetDefinitions[props.skillsetName]);
 
     return (
-        <div>
-            <section>
-                <h2>
-                    {skillset.name}
-                </h2>
-                <ul>
-                    {skillset.skills.map((skill) => {
-                        return (
-                            <li key={skill}>
-                                {skill}
-                            </li>
-                        );
-                    })}
-                </ul>
-            </section>
-        </div>
+        <section>
+            <h2>
+                {skillset.Name}
+            </h2>
+            <ul>
+                {skillset.Skills.map((skill) => {
+                    return (
+                        <li key={skill}>
+                            {skill}
+                        </li>
+                    );
+                })}
+            </ul>
+        </section>
     );
 };
 

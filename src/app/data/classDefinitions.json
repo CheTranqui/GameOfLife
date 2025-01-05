@@ -1,0 +1,132 @@
+{
+    "Tender" : {
+        "Name" : "Tender",
+        "Description" : "Tenders focus primarily on their household needs while keeping themselves and those closest to them healthy and engaged.",
+        "Primary" : "Management",
+        "SecondaryFirst" : "Health",
+        "SecondarySecond" : "Creativity",
+        "TertiaryFirst" : "Social",
+        "TertiarySecond" : "Scholarship",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Developer" : {
+        "Name" : "Developer",
+        "Description" : "Developers primarily focus on the growth and development of their home, themselves, and their loved ones.",
+        "Primary" : "Management",
+        "SecondaryFirst" : "Social",
+        "SecondarySecond" : "Scholarship",
+        "TertiaryFirst" : "Health",
+        "TertiarySecond" : "Creativity",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Sculptor" : {
+        "Name" : "Sculptor",
+        "Description" : "Sculptors focus on building strength and awareness of health issues, while developing the same within their community.",
+        "Primary" : "Health",
+        "SecondaryFirst" : "Creativity",
+        "SecondarySecond" : "Social",
+        "TertiaryFirst" : "Management",
+        "TertiarySecond" : "Scholarship",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Caregiver" : {
+        "Name" : "Caregiver",
+        "Description" : "Caregivers are well versed in health and fitness, keep their affairs well in order, and continuously refine their knowledge of such things.",
+        "Primary" : "Management",
+        "SecondaryFirst" : "Management",
+        "SecondarySecond" : "Scholarship",
+        "TertiaryFirst" : "Creativity",
+        "TertiarySecond" : "Social",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Designer" : {
+        "Name" : "Designer",
+        "Description" : "Designers are creatives who are grounded in real world application of their creations.",
+        "Primary" : "Creativity",
+        "SecondaryFirst" : "Health",
+        "SecondarySecond" : "Management",
+        "TertiaryFirst" : "Social",
+        "TertiarySecond" : "Scholarship",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Influencer" : {
+        "Name" : "Influencer",
+        "Description" : "Influencers create things that they might share with others, be that something physical or intellectual.",
+        "Primary" : "Creativity",
+        "SecondaryFirst" : "Social",
+        "SecondarySecond" : "Scholarship",
+        "TertiaryFirst" : "Management",
+        "TertiarySecond" : "Health",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Supporter" : {
+        "Name" : "Supporter",
+        "Description" : "Supporters help others see their goals and dreams become a reality and are willing to put in the hard work to make it happen.",
+        "Primary" : "Social",
+        "SecondaryFirst" : "Management",
+        "SecondarySecond" : "Creativity",
+        "TertiaryFirst" : "Health",
+        "TertiarySecond" : "Scholarship",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "PatriarchMatriarch" : {
+        "Name" : "PatriarchMatriarch",
+        "Description" : "PatriarchMatriarchs dedicate themselves to helping others remain physically, mentally, and emotionally healthy and growing.",
+        "Primary" : "Social",
+        "SecondaryFirst" : "Health",
+        "SecondarySecond" : "Scholarship",
+        "TertiaryFirst" : "Management",
+        "TertiarySecond" : "Creativity",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Strategist" : {
+        "Name" : "Strategist",
+        "Description" : "Strategists approach each problem with a plan to not just get it done, but achieve the best possible result, focusing primarily on matters of business and health.",
+        "Primary" : "Scholarship",
+        "SecondaryFirst" : "Management",
+        "SecondarySecond" : "Health",
+        "TertiaryFirst" : "Creativity",
+        "TertiarySecond" : "Social",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    },
+    "Mentor" : {
+        "Name" : "Mentor",
+        "Description" : "Mentors guide others through growth and difficulty utilizing their creativity to affect social change in society.",
+        "Primary" : "Scholarship",
+        "SecondaryFirst" : "Creativity",
+        "SecondarySecond" : "Social",
+        "TertiaryFirst" : "Management",
+        "TertiarySecond" : "Health",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
+    }
+}

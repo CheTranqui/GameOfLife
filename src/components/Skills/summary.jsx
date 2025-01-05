@@ -7,8 +7,8 @@ const Summary = () => {
 
     return (
         <section>
-            <Skillset skillsetName="management"/>
-            <Skillset skillsetName="health"/>
+            <Skillset skillsetName="Management"/>
+            <Skillset skillsetName="Health"/>
         </section>
     );
 }

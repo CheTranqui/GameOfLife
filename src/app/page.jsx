@@ -8,8 +8,11 @@ import Summary from "@components/Skills/summary";
 
 export default function Home() {
   return (
-    <div>
+    <section className="mainPageLayout">
         <Summary/>
-    </div>
+        <Summary/>
+        <Summary/>
+        <Summary/>
+    </section>
   );
 }

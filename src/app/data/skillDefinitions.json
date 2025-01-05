@@ -1,27 +1,250 @@
 {
-    "management" : {
-        "name" : "Management",
-        "skills" : [
-            "Work",
-            "Housework",
-            "Family",
-            "Finances",
-            "Travel",
-            "Volunteering",
-            "Other Obligations"
-        ]
+    "Work" : {
+        "Name" : "Work",
+        "Description" : "Going to work, getting a promotion.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
     },
-    "health" : {
-        "name" : "Health",
-        "skills" : [
-            "Cooking",
-            "Meal Prep",
-            "Weight Management",
-            "Aerobic Fitness",
-            "Strength Training",
-            "Emotional Wellbeing",
-            "Managing Illness",
-            "Managing Stress"
-        ]
+    "Housework" : {
+        "Name" : "Housework",
+        "Description" : "household chores",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Family" : {
+        "Name" : "Family",
+        "Description" : "Doing things for and with family.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Finances" : {
+        "Name" : "Finances",
+        "Description" : "Managing a budget and investing.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Volunteering" : {
+        "Name" : "Volunteering",
+        "Description" : "Working in the community.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Other Obligations" : {
+        "Name" : "Other Obligations",
+        "Description" : "Any obligations that don't fit elsewhere.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Cooking" : {
+        "Name" : "Cooking",
+        "Description" : "Baking, frying, grilling, etc.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Meal Prep" : {
+        "Name" : "Meal Prep",
+        "Description" : "Planning and prepping meals.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Weight Management" : {
+        "Name" : "Weight Management",
+        "Description" : "Making progress toward achieving weight goals.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Aerobic Fitness" : {
+        "Name" : "Aerobic Fitness",
+        "Description" : "Increasing aerobic fitness.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Strength Training" : {
+        "Name" : "Strength Training",
+        "Description" : "Increasing strength.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Emotional Wellbeing" : {
+        "Name" : "Emotional Wellbeing",
+        "Description" : "Actively improving emotional health.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Managing Illness" : {
+        "Name" : "Managing Illness",
+        "Description" : "Overcoming illness.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Managing Stress" : {
+        "Name" : "Managing Stress",
+        "Description" : "Reducing stress.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Digital Creation" : {
+        "Name" : "Digital Creation",
+        "Description" : "Creating new digital products.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Physical Creation" : {
+        "Name" : "Physical Creation",
+        "Description" : "Creating new physical products.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Consuming Entertainment" : {
+        "Name" : "Consuming Entertainment",
+        "Description" : "Enjoying the creations of others.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Notoriety" : {
+        "Name" : "Notoriety",
+        "Description" : "Gaining popularity.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Taking Initiative" : {
+        "Name" : "Taking Initiative",
+        "Description" : "Instigating something for others.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Being Supportive" : {
+        "Name" : "Being Supportive",
+        "Description" : "Supporting others through their struggles or to meet their goals.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Building Friendships" : {
+        "Name" : "Building Friendships",
+        "Description" : "Purposefully strengthening relationships with friends and family, or making a new friend.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Organizing Events" : {
+        "Name" : "Organizing Events",
+        "Description" : "Handling the details and making arrangements.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Traveling" : {
+        "Name" : "Traveling",
+        "Description" : "Going out to see other parts of the city, country, or world.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Understanding" : {
+        "Name" : "Understanding",
+        "Description" : "Gaining a deeper understanding of something; indicative of personal growth.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Openness" : {
+        "Name" : "Openness",
+        "Description" : "Increasing in acceptance of ideas contrary to your own opinion.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Skill Acquisition" : {
+        "Name" : "Skill Acquisition",
+        "Description" : "Learning a new skill or attaining a deeper capability therein.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Taking Classes" : {
+        "Name" : "Taking Classes",
+        "Description" : "Attending a class of any sort, be it through university, church, or a friend.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Studying" : {
+        "Name" : "Studying",
+        "Description" : "Self-directed learning, whether via reading, video, or practicing.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Teaching" : {
+        "Name" : "Teaching",
+        "Description" : "Teaching something to others with purposeful intention.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Mentorship" : {
+        "Name" : "Mentorship",
+        "Description" : "Focusing on the growth of another individual.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 2", "title 3"]
+        }
+    },
+    "Spiritual Development" : {
+        "Name" : "Spiritual Development",
+        "Description" : "Building a deeper spiritual connection through practice and study.",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
     }
 }
