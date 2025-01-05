@@ -1,24 +1,26 @@
 "use client"
 
-import React, {useState} from 'react';
+import React, {useState} from "react";
+import { default as skillsetDefinitions } from "../../app/data/skillDefinitions.json";
 
-const Skillset = () => {
-
-    const [count, setCount] = useState(0);
-
-    var listener = () => {
-        setCount(count + 1);
-    }
+const Skillset = (props) => {
+    const [skillset, setSkillset] = useState(skillsetDefinitions[props.skillsetName]);
 
     return (
         <div>
             <section>
-                <p>
-                    Click count: {count}
-                </p>
-                <button onClick={listener}>
-                    Click me
-                </button>
+                <h2>
+                    {skillset.name}
+                </h2>
+                <ul>
+                    {skillset.skills.map((skill) => {
+                        return (
+                            <li key={skill}>
+                                {skill}
+                            </li>
+                        );
+                    })}
+                </ul>
             </section>
         </div>
     );
