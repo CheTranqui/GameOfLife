@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css"
 
-import Skillset from "@components/Skills/skillset";
+import Summary from "@components/Skills/summary";
 
 // this is the home page route for the site
 // localhost:3000/GameOfLife
@@ -9,7 +9,7 @@ import Skillset from "@components/Skills/skillset";
 export default function Home() {
   return (
     <div>
-        <Skillset/>
+        <Summary/>
     </div>
   );
 }

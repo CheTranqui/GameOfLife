@@ -1,0 +1,27 @@
+{
+    "management" : {
+        "name" : "Management",
+        "skills" : [
+            "Work",
+            "Housework",
+            "Family",
+            "Finances",
+            "Travel",
+            "Volunteering",
+            "Other Obligations"
+        ]
+    },
+    "health" : {
+        "name" : "Health",
+        "skills" : [
+            "Cooking",
+            "Meal Prep",
+            "Weight Management",
+            "Aerobic Fitness",
+            "Strength Training",
+            "Emotional Wellbeing",
+            "Managing Illness",
+            "Managing Stress"
+        ]
+    }
+}
