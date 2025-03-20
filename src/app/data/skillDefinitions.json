@@ -2,6 +2,7 @@
     "Work" : {
         "Name" : "Work",
         "Description" : "Going to work, getting a promotion.",
+        "Skillset": "Management",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -9,7 +10,8 @@
     },
     "Housework" : {
         "Name" : "Housework",
-        "Description" : "household chores",
+        "Description" : "Household chores.",
+        "Skillset": "Management",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -18,6 +20,7 @@
     "Family" : {
         "Name" : "Family",
         "Description" : "Doing things for and with family.",
+        "Skillset": "Management",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -26,6 +29,7 @@
     "Finances" : {
         "Name" : "Finances",
         "Description" : "Managing a budget and investing.",
+        "Skillset": "Management",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -34,6 +38,7 @@
     "Volunteering" : {
         "Name" : "Volunteering",
         "Description" : "Working in the community.",
+        "Skillset": "Management",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -42,6 +47,7 @@
     "Other Obligations" : {
         "Name" : "Other Obligations",
         "Description" : "Any obligations that don't fit elsewhere.",
+        "Skillset": "Management",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -50,6 +56,7 @@
     "Cooking" : {
         "Name" : "Cooking",
         "Description" : "Baking, frying, grilling, etc.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -58,6 +65,7 @@
     "Meal Prep" : {
         "Name" : "Meal Prep",
         "Description" : "Planning and prepping meals.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -66,6 +74,7 @@
     "Weight Management" : {
         "Name" : "Weight Management",
         "Description" : "Making progress toward achieving weight goals.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -74,6 +83,7 @@
     "Aerobic Fitness" : {
         "Name" : "Aerobic Fitness",
         "Description" : "Increasing aerobic fitness.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -82,6 +92,7 @@
     "Strength Training" : {
         "Name" : "Strength Training",
         "Description" : "Increasing strength.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -90,6 +101,7 @@
     "Emotional Wellbeing" : {
         "Name" : "Emotional Wellbeing",
         "Description" : "Actively improving emotional health.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -98,6 +110,7 @@
     "Managing Illness" : {
         "Name" : "Managing Illness",
         "Description" : "Overcoming illness.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -106,6 +119,7 @@
     "Managing Stress" : {
         "Name" : "Managing Stress",
         "Description" : "Reducing stress.",
+        "Skillset": "Health",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -114,6 +128,7 @@
     "Digital Creation" : {
         "Name" : "Digital Creation",
         "Description" : "Creating new digital products.",
+        "Skillset": "Creativity",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -122,6 +137,43 @@
     "Physical Creation" : {
         "Name" : "Physical Creation",
         "Description" : "Creating new physical products.",
+        "Skillset": "Creativity",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Design" : {
+        "Name" : "Design",
+        "Description" : "Brainstorming ideas, a process, or actually designing a product.",
+        "Skillset": "Creativity",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Reading" : {
+        "Name" : "Reading",
+        "Description" : "Reading for entertainment.",
+        "Skillset": "Creativity",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Writing" : {
+        "Name" : "Writing",
+        "Description" : "Writing, reviewing, and revising.",
+        "Skillset": "Creativity",
+        "Titles" : {
+            "0" : ["title 1", "title 2"],
+            "5" : ["title 3", "title 4"]
+        }
+    },
+    "Programming" : {
+        "Name" : "Programming",
+        "Description" : "Software development.",
+        "Skillset": "Creativity",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -130,6 +182,7 @@
     "Consuming Entertainment" : {
         "Name" : "Consuming Entertainment",
         "Description" : "Enjoying the creations of others.",
+        "Skillset": "Creativity",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -138,6 +191,7 @@
     "Notoriety" : {
         "Name" : "Notoriety",
         "Description" : "Gaining popularity.",
+        "Skillset": "Social",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -146,6 +200,7 @@
     "Taking Initiative" : {
         "Name" : "Taking Initiative",
         "Description" : "Instigating something for others.",
+        "Skillset": "Social",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -154,6 +209,7 @@
     "Being Supportive" : {
         "Name" : "Being Supportive",
         "Description" : "Supporting others through their struggles or to meet their goals.",
+        "Skillset": "Social",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -162,6 +218,7 @@
     "Building Friendships" : {
         "Name" : "Building Friendships",
         "Description" : "Purposefully strengthening relationships with friends and family, or making a new friend.",
+        "Skillset": "Social",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -170,6 +227,7 @@
     "Organizing Events" : {
         "Name" : "Organizing Events",
         "Description" : "Handling the details and making arrangements.",
+        "Skillset": "Social",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -178,6 +236,7 @@
     "Traveling" : {
         "Name" : "Traveling",
         "Description" : "Going out to see other parts of the city, country, or world.",
+        "Skillset": "Social",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -186,6 +245,7 @@
     "Understanding" : {
         "Name" : "Understanding",
         "Description" : "Gaining a deeper understanding of something; indicative of personal growth.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -194,6 +254,7 @@
     "Openness" : {
         "Name" : "Openness",
         "Description" : "Increasing in acceptance of ideas contrary to your own opinion.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -202,6 +263,7 @@
     "Skill Acquisition" : {
         "Name" : "Skill Acquisition",
         "Description" : "Learning a new skill or attaining a deeper capability therein.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -210,6 +272,7 @@
     "Taking Classes" : {
         "Name" : "Taking Classes",
         "Description" : "Attending a class of any sort, be it through university, church, or a friend.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -218,6 +281,7 @@
     "Studying" : {
         "Name" : "Studying",
         "Description" : "Self-directed learning, whether via reading, video, or practicing.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -226,6 +290,7 @@
     "Teaching" : {
         "Name" : "Teaching",
         "Description" : "Teaching something to others with purposeful intention.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]
@@ -234,6 +299,7 @@
     "Mentorship" : {
         "Name" : "Mentorship",
         "Description" : "Focusing on the growth of another individual.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 2", "title 3"]
@@ -242,6 +308,7 @@
     "Spiritual Development" : {
         "Name" : "Spiritual Development",
         "Description" : "Building a deeper spiritual connection through practice and study.",
+        "Skillset": "Scholarship",
         "Titles" : {
             "0" : ["title 1", "title 2"],
             "5" : ["title 3", "title 4"]

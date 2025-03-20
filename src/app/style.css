@@ -1,14 +1,75 @@
 body {
     background-color: black;
     color: blanchedalmond;
+    margin: 2%;
+    font-size: 1.1rem;
+}
+
+.characterName{
+    margin-bottom: 1rem;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 1.1rem;
 }
 
 .mainPageLayout {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 100%;
 }
 
-.mainPageLayout section {
-    margin: 1% 2%;
-    flex-basis: 46%;
+.skillsetSummaryDuo{
+    width: 100%;
+    margin-right: 4%;
+}
+
+.summaryWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 4%;
+}
+
+.skillsetWrapper{
+    display: block;
+    margin: 1rem auto;
+    padding-bottom: 1.5rem;
+}
+
+.skillsetName{
+    margin: 0rem;
+    margin-bottom: 0.75rem;
+}
+
+.skillsetTooltip{
+    position: absolute;
+    display: none;
+    background-color: rgb(29, 28, 28);
+    color: grey;
+}
+
+.skillsetNameTooltip{
+    font-size: 1.25rem;
+}
+
+.skill{
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.skill:hover .skillsetTooltip,
+.skillsetName:hover .skillsetTooltip{
+    display: block;
+}
+
+.skillTooltip{
+    margin-top: 0.1rem;
+}
+
+.skillList{
+    margin: 0rem;
+    margin-top: 0.25rem;
 }

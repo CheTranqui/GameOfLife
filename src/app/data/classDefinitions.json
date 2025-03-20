@@ -128,5 +128,18 @@
             "0" : ["Class Title 1", "Class Title 2"],
             "5" : ["Class Title 3", "Class Title 4"]
         }
+    },
+    "Commoner" : {
+        "Name" : "Commoner",
+        "Description" : "Commoners are your average joe with no particular aim. All learning is average where no skills in particular are a focus.",
+        "Primary" : "Management",
+        "SecondaryFirst" : "Health",
+        "SecondarySecond" : "Creativity",
+        "TertiaryFirst" : "Social",
+        "TertiarySecond" : "Scholarship",
+        "Titles" : {
+            "0" : ["Class Title 1", "Class Title 2"],
+            "5" : ["Class Title 3", "Class Title 4"]
+        }
     }
 }
