@@ -1,4 +1,7 @@
 import { Lexend , Lexend_Tera } from "next/font/google";
+import "@app/data/StorageProvider";
+import "@app/personalization/profile";
+import "@app/personalization/leveling";
 import React from 'react';
 
 export const metadata = {

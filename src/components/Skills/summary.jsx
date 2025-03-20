@@ -1,14 +1,14 @@
 "use client"
 
 import React from "react";
-import Skillset from "./skillset";
+import Skillset from "@components/skills/skillset";
 
-const Summary = () => {
-
+const Summary = (props) => {
+    
     return (
-        <section>
-            <Skillset skillsetName="management"/>
-            <Skillset skillsetName="health"/>
+        <section className="summaryWrapper">
+            <Skillset skillsetName={props.primarySkillset}/>
+            <Skillset skillsetName={props.secondarySkillset}/>
         </section>
     );
 }

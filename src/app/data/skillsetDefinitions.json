@@ -1,0 +1,67 @@
+{
+    "Management" : {
+        "Name" : "Management",
+        "Description" : "Manging primary obligations in life such as going to work and managing finances.",
+        "Skills" : [
+            "Work",
+            "Housework",
+            "Family",
+            "Finances",
+            "Volunteering",
+            "Other Obligations"
+        ]
+    },
+    "Health" : {
+        "Name" : "Health",
+        "Description" : "Managing physical, mental, and emotional health.",
+        "Skills" : [
+            "Cooking",
+            "Meal Prep",
+            "Weight Management",
+            "Aerobic Fitness",
+            "Strength Training",
+            "Emotional Wellbeing",
+            "Managing Illness",
+            "Managing Stress"
+        ]
+    },
+    "Creativity" : {
+        "Name" : "Creativity",
+        "Description" : "Creating new things and engaging with others' creations.",
+        "Skills" : [
+            "Digital Creation",
+            "Physical Creation",
+            "Design",
+            "Reading",
+            "Writing",
+            "Programming",
+            "Consuming Entertainment"
+        ]
+    },
+    "Social" : {
+        "Name" : "Social",
+        "Description" : "Sharing life with others.",
+        "Skills" : [
+            "Notoriety",
+            "Taking Initiative",
+            "Being Supportive",
+            "Building Friendships",
+            "Organizing Events",
+            "Traveling"
+        ]
+    },
+    "Scholarship" : {
+        "Name" : "Scholarship",
+        "Description" : "Learning something new.",
+        "Skills" : [
+            "Understanding",
+            "Openness",
+            "Skill Acquisition",
+            "Taking Classes",
+            "Studying",
+            "Teaching",
+            "Mentorship",
+            "Spiritual Development"
+        ]
+    }
+}
